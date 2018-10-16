@@ -1,0 +1,31 @@
+{
+  "name": "wireguard",
+  "description": "Deploy wireguard to Heroku.",
+  "keywords": ["wireguard"],
+  "env": {
+    "PRIVKEY": {
+       "value": "test"
+     }, 
+    "PEERKEY": {
+       "value": "test"
+     },
+     "PEERADDR": {
+       "value": "0.0.0.0/0"
+     },
+    "OWNIP": {
+       "value": "0.0.0.0/0"
+     }
+     "BLOCKSIZE": {
+       "value": "10"
+     }
+     "LPORT": {
+       "value": "8888"
+     }
+     "PEERCMD": {
+       "value": "ccc"
+     }
+  },
+  "website": "https://github.com/houzhongshe/wireguard-docker",
+  "repository": "https://github.com/houzhongshe/wireguard-docker",
+  "stack": "container"
+ }
